@@ -1,0 +1,28 @@
+.button-option {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 1/1;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+.button-add {
+  align-self: center;
+  width: 3em;
+  border: 1px solid var(--add-button-hover-color);
+  background-color: var(--add-button-color);
+}
+
+.button-add:hover {
+  background-color: var(--add-button-hover-color);
+}
+
+.remove-button {
+  width: 2em;
+  background-color: var(--remove-button-color);
+  border: 1px solid var(--remove-button-hover-color);
+}
+
+.remove-button:hover {
+  background-color: var(--remove-button-hover-color);
+}

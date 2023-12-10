@@ -1,0 +1,66 @@
+:root {
+  color-scheme: light dark;
+  --font-family: Tahoma, Helvetica, sans-serif;
+  --transition: 160ms ease-in-out;
+
+  --background: #eee;
+  --text-color: #111d15;
+  --text-color-dark: #072030;
+  --input-color: #fff;
+  --input-placeholder-color: #696969;
+  --input-focus-color: #fff;
+
+  --shadow-color: #001420;
+  --text-color-button: #eeeeee;
+
+  --button-active-color: #20f8db;
+
+  --result-button-color: #04c8ae;
+  --result-button-hover-color: #05fad9;
+  --reset-button-color: #9c162f;
+  --reset-button-hover-color: #c91d3c;
+  --share-button-color: #751bb1;
+  --share-button-hover-color: #9221de;
+  --add-button-color: #50e150;
+  --add-button-hover-color: #6ef16e;
+  --remove-button-color: #9c162f;
+  --remove-button-hover-color: #c91d3c;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  height: 100dvh;
+}
+
+.shadow {
+  box-shadow: 2px 2px 4px var(--shadow-color);
+}
+
+.dark-mode {
+  --background: #000d15;
+  --text-color: #eeeeee;
+  --text-color-dark: #072030;
+  --input-color: #051b29;
+  --input-placeholder-color: #dddddd69;
+  --input-focus-color: #1a313f;
+
+  --button-active-color: #078879;
+
+  --result-button-color: #024c42;
+  --result-button-hover-color: #017365;
+  --reset-button-color: #4c0b17;
+  --reset-button-hover-color: #540d1a;
+  --share-button-color: #47106b;
+  --share-button-hover-color: #571f7d;
+  --add-button-color: #268826;
+  --add-button-hover-color: #359b35;
+  --remove-button-color: #4c0b17;
+  --remove-button-hover-color: #540d1a;
+}
